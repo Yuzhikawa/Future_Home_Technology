@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Home Technology</title>
+  <link rel="stylesheet" href="style3.css">
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+    <script>
+        // fungsi initialize untuk mempersiapkan peta
+        function initialize() {
+        var propertiPeta = {
+            center:new google.maps.LatLng(-8.5830695,116.3202515),
+            zoom:9,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        
+        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+        }
+
+        // event jendela di-load  
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  
+</head>
+<body>
+
+    
+</head>
+
+<body>
+  <header>
+    <h1>Future Home Technology</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="abouts.html">about us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+  <div class="background">
+    <div class="container">
+      <h2>Shop Now</h2>
+      <p>Explore our wide range of future home technology products and bring innovation to your home.</p>
+ 
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="product">
+          <img src="lampu.png" alt="Product Image">
+          <h3>Smart Lamp</h3>
+          <p>Lamps have the ability to adjust the light automatically or through intelligent adjustments, such as using a motion sensor or timing.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="control.png" alt="Product Image">
+          <h3>Home Automation</h3>
+          <p>Home Automation allows home devices and systems to connect to each other via a network, enabling remote control and exchange of information between devices.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="cctv.png" alt="Product Image">
+          <h3>Smart Security</h3>
+          <p>Smart Security uses technology and artificial intelligence to protect your home or property in smart ways, such as facial recognition or advanced motion detection.</p>
+         
+        </div>
+        <div class="col-md-4">
+          <div class="product">
+            <img src="switch.png" alt="Product Image">
+            <h3>Smart Switch</h3>
+            <p>Smart Switch has the ability to intelligently control the flow of electricity to connected devices or lights, either through a smartphone app, voice, or a predetermined schedule.</p>
+            
+          </div>
+          <div class="col-md-4">
+            <div class="product">
+              <img src="speaker.png" alt="Product Image">
+              <h3>Smart Speaker</h3>
+              <p>Smart Speakers have artificial intelligence that allows users to interact with voice and perform various tasks, such as playing music, providing information, answering questions, and controlling other devices.</p>
+              
+            </div>
+            <div class="col-md-4">
+              <div class="product">
+                <img src="temperatur.png" alt="Product Image">
+                <h3>Smart Temp Control</h3>
+                <p>Smart Temperature Control can connect to WiFi networks and other devices, such as smartphones or smart home systems, allowing users to control room temperature remotely and access settings via an app.</p>
+                
+              </div>
+              <div class="col-md-4">
+                <div class="product">
+                  <img src="tv.png" alt="Product Image">
+                  <h3>Smart Tv</h3>
+                  <p>Smart TVs are equipped with an intelligent operating system and can connect to the internet, allowing users to access applications, streaming content and online services.</p>
+                  
+                </div>
+                
+      </div>
+    </div>
+  </div>
+  <div class="container1">
+    <h1>If you're interested in us, please click this</h1>
+    <a href="contact.html" class="btn">Click</a>
+  </div>
+  
+  <footer>
+
+    <p>&copy; 2023 Future Home Technology. All rights reserved.</p>
+    <div class="footer-content"></div>
+    <div class="social-icons">
+      <a href="#"><img src="facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="instagram.png" alt="Instagram"></a>
+    </div>
+  </div>
+  <div id="googleMap" style="width:100%;height:300px;margin-top: 30px;"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+

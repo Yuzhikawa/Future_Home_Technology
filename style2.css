@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('cover-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    padding: 20px;
+    background-color: #333333ac;
+    color: #108c58;
+    text-align: center;
+  }
+  
+  nav {
+    padding: 20px;
+    background-color: #464545;
+    color: #ffffff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fcfcfc;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 10 auto;
+    padding: 40px;
+    background-color: #868383;
+    border: 1px solid #ccc;
+    border-right-width: 0;
+    border-left-width: 0.5px;
+  }
+  
+  .container h2 {
+    font-size: 28px;
+    color: aqua;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .container2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .content h2{
+    font-weight: 1000;
+    color: aqua;
+  }
+  .content P{
+    color: #dfeb2d;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  .float-right {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .small-image {
+    width: 370px; /* Ubah ukuran sesuai kebutuhan */
+    height: 360px;
+  }
+  .container3 {
+    max-width: 800px;
+    margin: 10 auto;
+    padding: 40px;
+    margin-top: 300px;
+    background-color: #868383;
+    border: 1px solid #ccc;
+    border-right-width: 0;
+    border-left-width: 0.5px;
+  }
+  
+  .container3 h2 {
+    font-size: 28px;
+    color: aqua;
+    margin-bottom: 20px;
+  }
+  
+  .container3 p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .container2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .social-icons img {
+    width: 25px;
+    margin-left: 10px;
+    
+  }
+  
+  
